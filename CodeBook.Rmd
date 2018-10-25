@@ -1,0 +1,36 @@
+---
+title: "Codebook for Tidy Data Project"
+author: "RPerry"
+date: "October 23, 2018"
+output: html_document
+---
+ ID - 
+ subject ID number
+ 1:30 
+
+ activity - 
+  Activities performed by subjects at time of measurment
+  Walking
+  Walking_Upstairs
+  Walking_Downstairs
+  Sitting
+  Standing
+  Lying_Down
+  
+The remaining variables are the time domain signals, captured at a constant rate of 50 Hz. After filtering the signals were filtered into Body and Gravity acceleration. Each variable name indicates whether the the recorded acceleration was attributed to body movement (Body) or the force of gravity (Gravity). The axis of movement is given by XAxis, YAxis, ZAxis. The measurements are either means, e.g. BodyAcc_mean_XAxis or standard deviations, e.g. GravityAcc_std_YAxis. The noramlized range for all subesequent variables is -1, 1.
+
+  BodyAcc_mean_XAxis 
+  BodyAcc_mean_YAxis      
+  BodyAcc_mean_ZAxis 
+  BodyAcc_std_XAxis
+  BodyAcc_std_YAxis     
+  BodyAcc_std_ZAxis
+  GravityAcc_mean_XAxis
+  GravityAcc_mean_YAxis
+  GravityAcc_mean_ZAxis 
+  GravityAcc_std_XAxis  
+  GravityAcc_std_YAxis  
+  GravityAcc_std_ZAxis 
+ 
+  
+  
